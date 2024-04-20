@@ -4,3 +4,82 @@
   padding: 2rem;
   text-align: center;
 }
+
+.blocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.updateCard {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.updateCard>span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button_update {
+  background-image: url(./img/upd_btn.png);
+}
+
+.button_add {
+  background-image: url(./img/add_btn.png);
+}
+
+.button_delete {
+  background-image: url(./img/del_btn.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.form>label {
+  display: block;
+}
+
+.form>label>input {
+  font-size: 20px;
+  width: 440px;
+}
+
+.form>button {
+  display: block;
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.card > p {
+  padding: 30px;
+  font-size: 18px;
+}
